@@ -121,7 +121,7 @@ div.bg-cta-2{
 }
 div.bgtela3{
     background-image:url(imagens/bgtela3.jpg);
-    padding-top: 95px;
+    padding-top: 90px;
     padding-bottom: 55px;
 }
 div.bgtela3 p{
@@ -174,4 +174,26 @@ ul.list2{
 }
 li.mgli{
     margin-bottom: 5px;
+}
+div.bgtestemunhas{
+    background-image: linear-gradient(to bottom right, #074c65 , #07524f);
+    padding: 60px;
+}
+div.bgtestemunhas img{
+    padding-bottom: 10px;
+}
+div.bgtestemunhas h5{
+    color: #ffff;
+}
+div.bgtestemunhas p{
+    color: #ffff
+}
+@media(max-width: 800px){
+    div.bgtestemunhas{
+        padding: 5px;
+        padding-top: 10px;
+    }
+    div.bgtestemunhas h5{
+        font-size: 18px;
+    }
 }

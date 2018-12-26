@@ -196,4 +196,10 @@ div.bgtestemunhas p{
     div.bgtestemunhas h5{
         font-size: 18px;
     }
+    h3.text100{
+        text-align: left !important;
+    }
+}
+ul.listfooter li a{
+    color: #ffff;
 }

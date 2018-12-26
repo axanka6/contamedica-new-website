@@ -10,3 +10,13 @@ function start(){
 $('.carousel').carousel({
   interval: 5000
 })
+	
+$( function(e) { 	
+    $('#sobre').click(function(e) {
+        $('html, body').animate( { scrollTop: $('#tela1').offset().top } , 1000 );
+    });
+    $('#inicio').click(function(e) {
+        $('html, body').animate( { scrollTop: $('.header1').offset().top } , 1000 );
+    });
+
+});		

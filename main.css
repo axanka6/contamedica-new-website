@@ -175,6 +175,9 @@ ul.list2{
 li.mgli{
     margin-bottom: 5px;
 }
+div.tela4{
+    height: 623px;
+}
 div.bgtestemunhas{
     background-image: linear-gradient(to bottom right, #074c65 , #07524f);
     padding: 60px;
@@ -202,4 +205,24 @@ div.bgtestemunhas p{
 }
 ul.listfooter li a{
     color: #ffff;
+}
+div.botao12{
+    position: relative;
+    bottom: 200px;
+}
+@media(max-width: 1024px){
+    div.dr1{
+        display: none
+    }
+    div.dra2{
+        display: none
+    }
+    div.tela4{
+        height: 730px;
+    }
+    div.botao12{
+        position: relative;
+        top: 1px;
+        padding: 0px 5px 0px;
+    }
 }

@@ -20,13 +20,13 @@
     <!--ICON-->
     <link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />
     <!--www-->
-    <script>
+    <!-- <script>
         if (location.protocol != "https:") {
             location.href = "https://www.contamedica.com.br"
        };
        if (location.href == "contamedica.com.br") {
            location.href = "https://www.contamedica.com.br";}
-    </script> 
+    </script>  -->
     <!---->
 
     <style>
@@ -34,8 +34,12 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    div.tela{
+        padding-top: 60px;
+    }
     div.tela4{
         padding-top: 60px;
+    
     }
     </style>
 </head>
@@ -43,15 +47,17 @@
 <body onload="start();">
     <!--Header-->
     <header id="header1" class="fundobg">
-        <div class="container tela4">
+        <div class="container-fluid tela4">
             <div class="row">
                 <div class=" col-md-12 text-center">
                     <img class="logo2" src="imagens/logo2.png" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-0 col-md-2 col-lg-2 text06"></div>
-                <div class="col-sm-12 col-md-5 col-lg-5 text06">
+                <div class="col-sm-0 col-md-5 col-lg-3 dr1">
+                    <img src="imagens/bannerdr1.png" width="300px" height="auto">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 text06">
                     <h2><strong>A MEDICINA<br>
                             <span>EVOLUIU,</span><br>
                             A CONTABILIDADE <br>
@@ -59,25 +65,25 @@
                             TAMBÉM</strong></h2>
                     <p>Abrimos 100 vagas para você começar 2019 <br> com 100% de controle da sua produção</p>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 text06">
+                <div class="col-sm-12 col-md-6 col-lg-2 text06">
                     <div class="text02">
                         <h3 class="text-center text100"><strong>APENAS<br><span>100</span>
                                 <div class="clearfix"></div>CONVITES
                             </strong></h3>
                     </div>
                 </div>
-                <div class="col-sm-0 col-md-2 col-lg-2 text06"></div>
-            </div>
-            <div class="row">
-                <div class=" col-md-12 text-center">
-                    <button type="button" class="prefinery-form-cta button">Reservar meu Convite</button>
+                <div class="col-sm-0 col-md-6 col-lg-3 text06 dra2">
+                    <img src="imagens/bgdra2.png" width="300px" height="auto">
                 </div>
             </div>
-            <div class="row banner">
+             <div class=" col-md-12 text-center botao12">
+                    <button type="button" class="prefinery-form-cta button">Reservar meu Convite</button>
+                </div>
+            <!-- <div class="row banner">
                 <div class=" col-md-12 text-center">
                     <img src="imagens/imabanner.png" width="700px; height:auto;">
                 </div>
-            </div>
+            </div> -->
         </div>
     </header>
 
@@ -153,7 +159,7 @@
 
     <!--TELA 4-->
     <div class="bg-cta-2">
-        <div class="container tela4">
+        <div class="container tela">
             <div class="row">
                 <div class="col-sm- col-md-2 col-lg-2"></div>
                 <div class="col-sm-12 col-md-4 col-lg-4 text-size">
